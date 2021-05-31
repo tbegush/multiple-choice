@@ -1,8 +1,8 @@
-#results {
+#quiz {
     border: 2px solid red;
 }
 
-#results div{
+#quiz div{
     display: flex;
     align-items: flex-start;
     flex-direction: column;
@@ -13,6 +13,12 @@
     border: 2px solid blue;
 }
 
-#results div p{
+#quiz div p{
     border: 2px solid rgb(46, 241, 46);
+}
+
+#results {
+    display: flex;
+    align-items: flex-start;
+    border: 2px solid rgb(226, 7, 255);
 }
